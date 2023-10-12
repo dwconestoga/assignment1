@@ -1,0 +1,74 @@
+/*Dharma Witt 8954386*/
+
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    font: 20px, Arial, sans-serif;
+    padding: 10px;
+}
+
+.headerfooter{
+    border: black solid 3px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+h1{
+    font-variant: small-caps;
+    color: #7289da;
+}
+h2{
+    font-variant: small-caps;
+    color: #7289da;
+}
+
+footer p{
+    font-size: 0.7rem;
+    color: #282b30;
+}
+
+main{
+    float: left;
+    width : 45vw;
+    padding: 5px;
+    margin: 10px; 
+}
+
+aside{
+    float: right;
+    width : 25vw;
+    padding: 5px;
+    margin: 5px;
+}
+footer{
+    clear : both;
+}
+
+.mainimg{
+    border: 4px solid #7289da;
+}
+
+figcaption{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+q{
+    font-family: cursive;
+    font-style: italic;
+}
+
+ul li{
+    list-style: none;
+    line-height: 2em;
+}
+
+li a{
+    text-decoration: none;
+    color : aquamarine;
+}
+aside a:hover{
+    color: blueviolet;
+}
